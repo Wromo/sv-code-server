@@ -27,7 +27,7 @@ export class UpdateProvider {
      * The URL for getting the latest version of code-server. Should return JSON
      * that fulfills `LatestResponse`.
      */
-    private readonly latestUrl = "https://api.github.com/repos/cdr/code-server/releases/latest",
+    private readonly latestUrl = "https://api.github.com/repos/Wromo/sv-code-server/releases/latest",
     /**
      * Update information will be stored here. If not provided, the global
      * settings will be used.

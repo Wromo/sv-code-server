@@ -93,7 +93,7 @@ NOTE: The standalone arm64 .deb does not support Ubuntu <16.04.
 Please upgrade or [build with yarn](#yarn-npm).
 
 ```bash
-curl -fOL https://github.com/cdr/code-server/releases/download/v$VERSION/code-server_$VERSION_amd64.deb
+curl -fOL https://github.com/Wromo/sv-code-server/releases/download/v$VERSION/code-server_$VERSION_amd64.deb
 sudo dpkg -i code-server_$VERSION_amd64.deb
 sudo systemctl enable --now code-server@$USER
 # Now visit http://127.0.0.1:8080. Your password is in ~/.config/code-server/config.yaml
@@ -105,7 +105,7 @@ NOTE: The standalone arm64 .rpm does not support CentOS 7.
 Please upgrade or [build with yarn](#yarn-npm).
 
 ```bash
-curl -fOL https://github.com/cdr/code-server/releases/download/v$VERSION/code-server-$VERSION-amd64.rpm
+curl -fOL https://github.com/Wromo/sv-code-server/releases/download/v$VERSION/code-server-$VERSION-amd64.rpm
 sudo rpm -i code-server-$VERSION-amd64.rpm
 sudo systemctl enable --now code-server@$USER
 # Now visit http://127.0.0.1:8080. Your password is in ~/.config/code-server/config.yaml
@@ -143,12 +143,12 @@ We recommend installing with `yarn` or `npm` when:
 
 1. You aren't on `amd64` or `arm64`.
 2. If you're on Linux with glibc < v2.17 or glibcxx < v3.4.18 on amd64, or glibc < v2.23 or glibcxx < v3.4.21 on arm64.
-3. You're running Alpine Linux, or are using a non-glibc libc. See [#1430](https://github.com/cdr/code-server/issues/1430#issuecomment-629883198)
+3. You're running Alpine Linux, or are using a non-glibc libc. See [#1430](https://github.com/Wromo/sv-code-server/issues/1430#issuecomment-629883198)
 
 **note:** Installing via `yarn` or `npm` builds native modules on install and so requires C dependencies.
 See [./npm.md](./npm.md) for installing these dependencies.
 
-You will need at least node v12 installed. See [#1633](https://github.com/cdr/code-server/issues/1633).
+You will need at least node v12 installed. See [#1633](https://github.com/Wromo/sv-code-server/issues/1633).
 
 ```bash
 yarn global add code-server
@@ -167,13 +167,13 @@ brew services start code-server
 
 ## Standalone Releases
 
-We publish self contained `.tar.gz` archives for every release on [github](https://github.com/cdr/code-server/releases).
+We publish self contained `.tar.gz` archives for every release on [github](https://github.com/Wromo/sv-code-server/releases).
 They bundle the node binary and `node_modules`.
 
 These are created from the [npm package](#yarn-npm) and the rest of the releases are created from these.
 Only requirement is glibc >= 2.17 && glibcxx >= v3.4.18 on Linux and for macOS there is no minimum system requirement.
 
-1. Download the latest release archive for your system from [github](https://github.com/cdr/code-server/releases).
+1. Download the latest release archive for your system from [github](https://github.com/Wromo/sv-code-server/releases).
 2. Unpack the release.
 3. You can run code-server by executing `./bin/code-server`.
 
@@ -184,7 +184,7 @@ Here is an example script for installing and using a standalone `code-server` re
 
 ```bash
 mkdir -p ~/.local/lib ~/.local/bin
-curl -fL https://github.com/cdr/code-server/releases/download/v$VERSION/code-server-$VERSION-linux-amd64.tar.gz \
+curl -fL https://github.com/Wromo/sv-code-server/releases/download/v$VERSION/code-server-$VERSION-linux-amd64.tar.gz \
   | tar -C ~/.local/lib -xz
 mv ~/.local/lib/code-server-$VERSION-linux-amd64 ~/.local/lib/code-server-$VERSION
 ln -s ~/.local/lib/code-server-$VERSION/bin/code-server ~/.local/bin/code-server
@@ -227,4 +227,4 @@ See [the chart](../ci/helm-chart).
 
 We maintain one-click apps and install scripts for different cloud providers such as DigitalOcean, Railway, Heroku, Azure, etc. Check out the repository:
 
-https://github.com/cdr/deploy-code-server
+https://github.com/Wromo/deploy-code-server
