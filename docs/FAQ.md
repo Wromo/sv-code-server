@@ -39,7 +39,7 @@
 
 ## Questions?
 
-Please file all questions and support requests at <https://github.com/cdr/code-server/discussions>.
+Please file all questions and support requests at <https://github.com/Wromo/sv-code-server/discussions>.
 
 ## iPad Status?
 
@@ -47,7 +47,7 @@ Please see [./ipad.md](./ipad.md).
 
 ## Community Projects (awesome-code-server)
 
-Visit the [awesome-code-server](https://github.com/cdr/awesome-code-server) repository to view community projects and guides with code-server! Feel free to add your own!
+Visit the [awesome-code-server](https://github.com/Wromo/awesome-code-server) repository to view community projects and guides with code-server! Feel free to add your own!
 
 ## How can I reuse my VS Code configuration?
 
@@ -79,9 +79,9 @@ better by the day with more and more extensions.
 These are the closed source extensions presently unavailable:
 
 1. [Live Share](https://visualstudio.microsoft.com/services/live-share)
-   - We may implement something similar, see [#33](https://github.com/cdr/code-server/issues/33)
+   - We may implement something similar, see [#33](https://github.com/Wromo/sv-code-server/issues/33)
 1. [Remote Extensions (SSH, Containers, WSL)](https://github.com/microsoft/vscode-remote-release)
-   - We may reimplement these at some point, see [#1315](https://github.com/cdr/code-server/issues/1315)
+   - We may reimplement these at some point, see [#1315](https://github.com/Wromo/sv-code-server/issues/1315)
 
 For more about the closed source parts of VS Code, see [vscodium/vscodium](https://github.com/VSCodium/vscodium#why-does-this-exist).
 
@@ -269,8 +269,8 @@ passed as is. e.g. `/absproxy/3000/my-app-path`
 ### Proxying to Create React App
 
 You must use `/absproxy/<port>` with create-react-app.
-See [#2565](https://github.com/cdr/code-server/issues/2565) and
-[#2222](https://github.com/cdr/code-server/issues/2222). You will need to inform
+See [#2565](https://github.com/Wromo/sv-code-server/issues/2565) and
+[#2222](https://github.com/Wromo/sv-code-server/issues/2222). You will need to inform
 create-react-app of the path at which you are serving via `$PUBLIC_URL` and webpack
 via `$WDS_SOCKET_PATH`.
 
@@ -347,7 +347,7 @@ If you want to shutdown `code-server` if there hasn't been an active connection 
 you can do so by continuously checking the last modified time on the heartbeat file and if it is
 older than X minutes, kill `code-server`.
 
-[#1636](https://github.com/cdr/code-server/issues/1636) will make the experience here better.
+[#1636](https://github.com/Wromo/sv-code-server/issues/1636) will make the experience here better.
 
 ## Healthz endpoint
 
@@ -419,7 +419,7 @@ You may have to give Node "full disk access" since it doesn't implement any of t
 
 Open System Preferences > Security & Privacy > Privacy (horizontal) tab > Full Disk Access (vertical) tab > Click the 🔒 to unlock > Click + and select the Node binary you located.
 
-See [#2794](https://github.com/cdr/code-server/issues/2794) for context on this.
+See [#2794](https://github.com/Wromo/sv-code-server/issues/2794) for context on this.
 
 ## Differences compared to Theia?
 
@@ -427,7 +427,7 @@ See [#2794](https://github.com/cdr/code-server/issues/2794) for context on this.
 text editor library named [Monaco](https://github.com/Microsoft/monaco-editor) and the same
 extension API but everything else is very different. It also uses [open-vsx.org](https://open-vsx.org)
 for extensions which has an order of magnitude less extensions than our marketplace.
-See [#1473](https://github.com/cdr/code-server/issues/1473).
+See [#1473](https://github.com/Wromo/sv-code-server/issues/1473).
 
 You can't just use your VS Code config in Theia like you can with code-server.
 

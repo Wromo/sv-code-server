@@ -6,12 +6,12 @@ main() {
   # Only sourcing this so we get access to $VERSION
   source ./ci/lib.sh
 
-  # NOTE: we need to make sure cdrci/homebrew-core
+  # NOTE: we need to make sure Wromoci/homebrew-core
   # is up-to-date
   # otherwise, brew bump-formula-pr will use an
   # outdated base
-  echo "Cloning cdrci/homebrew-core"
-  git clone https://github.com/cdrci/homebrew-core.git
+  echo "Cloning Wromoci/homebrew-core"
+  git clone https://github.com/Wromoci/homebrew-core.git
 
   echo "Changing into homebrew-core directory"
   cd homebrew-core && pwd
@@ -25,7 +25,7 @@ main() {
   echo "Merging in latest changes"
   git merge upstream/master
 
-  echo "Pushing changes to cdrci/homebrew-core fork on GitHub"
+  echo "Pushing changes to Wromoci/homebrew-core fork on GitHub"
   # Source: https://serverfault.com/a/912788
   # shellcheck disable=SC2016,SC2028
   echo '#!/bin/sh\nexec echo "$HOMEBREW_GITHUB_API_TOKEN"' >"$HOME"/.git-askpass.sh
@@ -33,7 +33,7 @@ main() {
   chmod +x "$HOME/.git-askpass.sh"
   # GIT_ASKPASS lets us use the password when pushing without revealing it in the process list
   # See: https://serverfault.com/a/912788
-  GIT_ASKPASS="$HOME/.git-askpass.sh" git push https://cdr-oss@github.com/cdr-oss/homebrew-core.git --all
+  GIT_ASKPASS="$HOME/.git-askpass.sh" git push https://Wromo-oss@github.com/Wromo-oss/homebrew-core.git --all
 
   # Find the docs for bump-formula-pr here
   # https://github.com/Homebrew/brew/blob/master/Library/Homebrew/dev-cmd/bump-formula-pr.rb#L18

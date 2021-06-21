@@ -3,7 +3,7 @@ name: Release
 about: "*For maintainers only*"
 title: "release: 0.0.0"
 labels: ""
-assignees: "@cdr/code-server-reviewers"
+assignees: "@Wromo/sv-code-server-reviewers"
 ---
 
 <!-- Maintainer: fill out the checklist -->

@@ -64,7 +64,7 @@ VS Code v0.00.0
 
 ### Development
 
-- fix(publish): update cdrci fork in brew-bump.sh #3468 @jsjoeio
+- fix(publish): update Wromoci fork in brew-bump.sh #3468 @jsjoeio
 
 ## 3.10.2
 
@@ -171,4 +171,4 @@ VS Code v1.56.0
 
 This was added with `3.10.0`, which means any previous versions are not documented in the changelog.
 
-To see those, please visit the [Releases page](https://github.com/cdr/code-server/releases).
+To see those, please visit the [Releases page](https://github.com/Wromo/sv-code-server/releases).

@@ -33,7 +33,7 @@ The workflow used by code-server maintainers is one that aims to be easy to unde
 
 ### Milestones
 
-We operate mainly using [milestones](https://github.com/cdr/code-server/milestones). This was heavily inspired by our friends over at [vscode](https://github.com/microsoft/vscode).
+We operate mainly using [milestones](https://github.com/Wromo/sv-code-server/milestones). This was heavily inspired by our friends over at [vscode](https://github.com/microsoft/vscode).
 
 Here are the milestones we use and how we use them:
 
@@ -120,5 +120,5 @@ If you're the current release manager, follow these steps:
       1. Publish the NPM package from `npm-package`.
       2. Publish the Docker Hub image from `release-images`.
 8. Update the AUR package.
-   - Instructions on updating the AUR package are at [cdr/code-server-aur](https://github.com/cdr/code-server-aur).
+   - Instructions on updating the AUR package are at [Wromo/sv-code-server-aur](https://github.com/Wromo/sv-code-server-aur).
 9. Wait for the npm package to be published.

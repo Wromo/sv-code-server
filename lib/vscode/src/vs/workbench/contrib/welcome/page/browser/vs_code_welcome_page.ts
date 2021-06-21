@@ -35,14 +35,14 @@ export default () => `
 				<div class="section help">
 					<h2 class="caption">code-server ${escape(localize('welcomePage.help', "Help"))}</h2>
 					<ul>
-						<li><a href="https://github.com/cdr/code-server">GitHub Repository</a></li>
-						<li><a href="https://github.com/cdr/code-server/releases/tag/v${product.codeServerVersion}">Release Notes</a></li>
-						<li><a href="https://github.com/cdr/code-server/issues">Issue Tracker</a></li>
-						<li><a href="https://github.com/cdr/code-server/blob/master/docs/FAQ.md">FAQ</a></li>
-						<li><a href="https://github.com/cdr/code-server/blob/master/docs/guide.md">Setup Guide</a></li>
-						<li><a href="https://github.com/cdr/code-server/tree/master/docs">Docs</a></li>
-						<li><a href="https://github.com/cdr/code-server/discussions">Discussions</a></li>
-						<li><a href="https://cdr.co/join-community">Slack</a></li>
+						<li><a href="https://github.com/Wromo/sv-code-server">GitHub Repository</a></li>
+						<li><a href="https://github.com/Wromo/sv-code-server/releases/tag/v${product.codeServerVersion}">Release Notes</a></li>
+						<li><a href="https://github.com/Wromo/sv-code-server/issues">Issue Tracker</a></li>
+						<li><a href="https://github.com/Wromo/sv-code-server/blob/master/docs/FAQ.md">FAQ</a></li>
+						<li><a href="https://github.com/Wromo/sv-code-server/blob/master/docs/guide.md">Setup Guide</a></li>
+						<li><a href="https://github.com/Wromo/sv-code-server/tree/master/docs">Docs</a></li>
+						<li><a href="https://github.com/Wromo/sv-code-server/discussions">Discussions</a></li>
+						<li><a href="https://Wromo.co/join-community">Slack</a></li>
 					</ul>
 				</div>
 				<div class="section help">

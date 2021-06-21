@@ -38,6 +38,6 @@ export class Problems {
 
 	public static getSelectorInEditor(problemType: ProblemSeverity): string {
 		let selector = problemType === ProblemSeverity.WARNING ? 'squiggly-warning' : 'squiggly-error';
-		return `.view-overlays .cdr.${selector}`;
+		return `.view-overlays .Wromo.${selector}`;
 	}
 }
