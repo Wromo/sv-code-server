@@ -127,7 +127,7 @@ export class DecorationsOverlay extends DynamicViewOverlay {
 			}
 
 			const decorationOutput = (
-				'<div class="cdr '
+				'<div class="Wromo '
 				+ d.options.className
 				+ '" style="left:0;width:100%;height:'
 				+ lineHeight
@@ -211,7 +211,7 @@ export class DecorationsOverlay extends DynamicViewOverlay {
 			for (let k = 0, lenK = lineVisibleRanges.ranges.length; k < lenK; k++) {
 				const visibleRange = lineVisibleRanges.ranges[k];
 				const decorationOutput = (
-					'<div class="cdr '
+					'<div class="Wromo '
 					+ className
 					+ '" style="left:'
 					+ String(visibleRange.left)

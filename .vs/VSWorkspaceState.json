@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\browser",
+    "\\src\\browser\\media",
+    "\\src\\browser\\pages",
+    "\\src\\common",
+    "\\src\\node",
+    "\\src\\node\\routes"
+  ],
+  "SelectedNode": "\\src\\node\\routes",
+  "PreviewInSolutionExplorer": false
+}
