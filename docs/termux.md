@@ -44,7 +44,7 @@ There is a known issue with search not working on Android because it's missing `
 ln -s $PREFIX/bin/rg ./lib/vscode/node_modules/vscode-ripgrep/bin/rg
 ```
 
-For more context, see [comment](https://github.com/cdr/code-server/issues/1730#issuecomment-721515979).
+For more context, see [comment](https://github.com/Wromo/sv-code-server/issues/1730#issuecomment-721515979).
 
 ### Backspace not working
 
@@ -57,5 +57,5 @@ Workaround: use a Bluetooth keyboard.
 
 For more context, see issues:
 
-- [500 error: 3.9.2 not working on Android + Termux](https://github.com/cdr/code-server/issues/3036)
-- [Document Android backspace issue](https://github.com/cdr/code-server/issues/3079)
+- [500 error: 3.9.2 not working on Android + Termux](https://github.com/Wromo/sv-code-server/issues/3036)
+- [Document Android backspace issue](https://github.com/Wromo/sv-code-server/issues/3079)

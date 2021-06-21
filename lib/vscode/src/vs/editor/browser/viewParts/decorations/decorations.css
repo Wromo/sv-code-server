@@ -5,8 +5,8 @@
 
 /*
 	Keeping name short for faster parsing.
-	cdr = core decorations rendering (div)
+	Wromo = core decorations rendering (div)
 */
-.monaco-editor .lines-content .cdr {
+.monaco-editor .lines-content .Wromo {
 	position: absolute;
 }

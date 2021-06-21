@@ -23,7 +23,7 @@
 
 ## Pull Requests
 
-Please create a [GitHub Issue](https://github.com/cdr/code-server/issues) to address any issue. You can skip this if the proposed fix is minor.
+Please create a [GitHub Issue](https://github.com/Wromo/sv-code-server/issues) to address any issue. You can skip this if the proposed fix is minor.
 
 In your Pull Requests (PR), link to the issue that the PR solves.
 

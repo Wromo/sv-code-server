@@ -65,7 +65,7 @@ function fromLocal(extensionPath: string, forWeb: boolean): Stream {
 	if (isWebPacked) {
 		input = updateExtensionPackageJSON(input, (data: any) => {
 			delete data.scripts;
-			// https://github.com/cdr/code-server/pull/2041#issuecomment-685910322
+			// https://github.com/Wromo/sv-code-server/pull/2041#issuecomment-685910322
 			delete data.devDependencies;
 			if (data.main) {
 				data.main = data.main.replace('/out/', /dist/);

@@ -45,4 +45,4 @@ xterm-addon-webgl@0.11.0-beta.8:
 xterm@4.12.0-beta.26:
   version "4.12.0-beta.26"
   resolved "https://registry.yarnpkg.com/xterm/-/xterm-4.12.0-beta.26.tgz#57c75b732808795398a66bc1a3e06d09eaff2ada"
-  integrity sha512-yZB1kMBXQu2G0G1ch7TUi6f893iTZC+tmfjw/PQNZTmN46b4oX1l7rplc3sFcdrICHtmQ0Q5n1u0d6WUAdq1Kw==
+  integrity sha512-yZB1kMBXQu2G0G1ch7TUi6f893iTZC+tmfjw/PQNZTmN46b4oX1l7rplc3sFWromoICHtmQ0Q5n1u0d6WUAdq1Kw==

@@ -17,18 +17,18 @@
 
 - Getting self signed certificates certificates to work is involved, see below.
 - Keyboard issues
-  - May disappear sometimes [#1313](https://github.com/cdr/code-server/issues/1313), [#979](https://github.com/cdr/code-server/issues/979)
+  - May disappear sometimes [#1313](https://github.com/Wromo/sv-code-server/issues/1313), [#979](https://github.com/Wromo/sv-code-server/issues/979)
   - Some short cuts expectations may not be met
     - `command + n` opens new browser window instead of new file and difficult to even set to another quick key
     - In general it's just note worthy you most likely will need to edit keyboard shortcuts
   - No escape key by default on Magic Keyboard but everyone sets the globe key to be an escape key
     - Opinion: It's actually an awesome joy having the escape key at bottom of keyboard
-- Trackpad scrolling does not work [#1455](https://github.com/cdr/code-server/issues/1455)
+- Trackpad scrolling does not work [#1455](https://github.com/Wromo/sv-code-server/issues/1455)
   - [Bug tracking of a WebKit fix here](https://bugs.webkit.org/show_bug.cgi?id=210071#c13)
   - [tracking of WebKit patch](https://trac.webkit.org/changeset/270712/webkit)
   - Alternative: Install line-jump extension and use keyboard to nav by jumping large amount of lines
   - Alternative: Just use touch scrolling
-- See [issues tagged with the iPad label](https://github.com/cdr/code-server/issues?q=is%3Aopen+is%3Aissue+label%3AiPad) for more.
+- See [issues tagged with the iPad label](https://github.com/Wromo/sv-code-server/issues?q=is%3Aopen+is%3Aissue+label%3AiPad) for more.
 - `ctrl+c` does not stop a long-running process in the browser
   - Tracking upstream issue here: [#114009](https://github.com/microsoft/vscode/issues/114009)
   - See [workaround](#ctrl-c-workaround)

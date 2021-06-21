@@ -7,7 +7,7 @@ import * as proxyFromEnv from "proxy-from-env"
  * This file has nothing to do with the code-server proxy.
  * It is to support $HTTP_PROXY, $HTTPS_PROXY and $NO_PROXY.
  *
- * - https://github.com/cdr/code-server/issues/124
+ * - https://github.com/Wromo/sv-code-server/issues/124
  * - https://www.npmjs.com/package/proxy-agent
  * - https://www.npmjs.com/package/proxy-from-env
  *

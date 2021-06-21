@@ -30,8 +30,8 @@ This will show issues that:
 3. If more information is required, please ask the submitter and tag as
    `waiting-for-info` and wait.
 4. Finally, the issue should be moved into the
-   [code-server](https://github.com/cdr/code-server/projects/1) project where we pick
+   [code-server](https://github.com/Wromo/sv-code-server/projects/1) project where we pick
    out issues to fix and track their progress.
 
-We also use [milestones](https://github.com/cdr/code-server/milestones) to track what
+We also use [milestones](https://github.com/Wromo/sv-code-server/milestones) to track what
 issues are planned/or were closed for what release.

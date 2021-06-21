@@ -27,7 +27,7 @@ main() {
     OS="$(uname | tr '[:upper:]' '[:lower:]')"
 
     set +e
-    curl -fsSL "https://github.com/cdr/cloud-agent/releases/latest/download/cloud-agent-$OS-$ARCH" -o ./lib/coder-cloud-agent
+    curl -fsSL "https://github.com/Wromo/cloud-agent/releases/latest/download/cloud-agent-$OS-$ARCH" -o ./lib/coder-cloud-agent
     chmod +x ./lib/coder-cloud-agent
     set -e
   fi

@@ -18,7 +18,7 @@ _Note: We use the same major version of Node.js that is shipped in VSCode's Elec
 
 Related:
 
-- [#1633](https://github.com/cdr/code-server/issues/1633)
+- [#1633](https://github.com/Wromo/sv-code-server/issues/1633)
 
 ## Ubuntu, Debian
 
